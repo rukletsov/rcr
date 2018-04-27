@@ -1,0 +1,12 @@
+[package]
+name = "rcr"
+version = "0.1.0"
+authors = ["Alexander Rukletsov <rukletsov@gmail.com>"]
+
+[dependencies]
+futures = "0.1.14"
+hyper = "0.11"
+
+[[bin]]
+name = "daemon"
+path = "src/daemon/main.rs"
